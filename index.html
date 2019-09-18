@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Login</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	
+	<link rel="stylesheet" type="text/css" href="main.css">
+	 <script src="showhide.js"></script>
+<!--===============================================================================================-->
+
+</head>
+<body>
+	
+	<div class="background">
+
+		<div class="header">
+			<img src="welcome.png" alt="Welcome" title="Welcome" class="header-logo">
+		</div>
+
+		<div class="background-login">
+			<div class="login-wrap">
+				<form class="login-form validate-form">
+				
+					<div class="login-signup" id="buttons">
+						<ul>
+							<li><button class="click-it active" onclick="reveal('Login')">Log In</button></li>
+							<li><button class="click-it" onclick="reveal('Signup')">Sign Up</button></li>
+						</ul>
+					</div>
+					<hr>
+					<div id="Login" class="form8">
+
+						<div class="input-value validate-input" data-validate = "Enter username">
+							<input class="input-it" type="text" name="username" placeholder="Username">
+							<span class="focus-input" data-placeholder="&#xf207;"></span>
+						</div>
+
+						<div class="input-value validate-input" data-validate="Enter password">
+							<input class="input-it" type="password" name="pass" placeholder="Password">
+							<span class="focus-input" data-placeholder="&#xf191;"></span>
+						</div>
+
+						<div class="remember-checkbox">
+							<input class="input-checkbox" id="ckb1" type="checkbox" name="remember-me">
+							<label class="label-checkbox" for="ckb1">
+								Remember me
+							</label>
+						</div>
+
+						<div class="submit-button">
+							<button class="form-btn">
+								Login
+							</button>
+						</div>
+
+						<div class="forgot-password">
+							<a class="txt" href="#">
+								Forgot Password?
+							</a>
+						</div>
+					</div>
+
+					<div id="Signup" class="form8">
+
+						<div class="input-value validate-input" data-validate = "Enter username">
+							<input class="input-it" type="text" name="username" placeholder="Username">
+							<span class="focus-input" data-placeholder="&#xf207;"></span>
+						</div>
+
+						<div class="input-value validate-input" data-validate="Enter password">
+							<input class="input-it" type="password" name="pass" placeholder="Password">
+							<span class="focus-input" data-placeholder="&#xf191;"></span>
+						</div>
+
+						<div class="input-value validate-input" data-validate="Enter password">
+							<input class="input-it" type="password" name="pass" placeholder="Confirm Password">
+							<span class="focus-input" data-placeholder="&#xf191;"></span>
+						</div>
+
+
+						<div class="submit-button">
+							<button class="form-btn">
+								Register
+							</button>
+						</div>
+					</div>
+
+
+				</form>
+			</div>
+		</div>
+	</div>
+	
+
+	<div id="dropDownSelect1"></div>
+	
+<!--===============================================================================================-->
+	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/animsition/js/animsition.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/bootstrap/js/popper.js"></script>
+	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/select2/select2.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/daterangepicker/moment.min.js"></script>
+	<script src="vendor/daterangepicker/daterangepicker.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/countdowntime/countdowntime.js"></script>
+<!--===============================================================================================-->
+	<script src="js/main.js"></script>
+
+</body>
+</html>
